@@ -8,7 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class SpringBootJenkinsApplicationTests {
 	
-	static Logger log = LoggerFactory.getLogger(SpringBootJenkinsApplication.class);
+//	static Logger log = LoggerFactory.getLogger(SpringBootJenkinsApplication.class);
+	
 
 	@Test
 	void contextLoads() {
