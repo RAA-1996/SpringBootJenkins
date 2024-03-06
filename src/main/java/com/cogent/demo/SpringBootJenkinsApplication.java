@@ -19,6 +19,7 @@ public class SpringBootJenkinsApplication {
 
 	public static void main(String[] args) {
 		log.error("Found our First Statement of Main!");
+		log.debug("Build Pipeline Configuration...");
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
 
