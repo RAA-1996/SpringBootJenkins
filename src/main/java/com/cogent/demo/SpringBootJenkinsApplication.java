@@ -12,7 +12,7 @@ public class SpringBootJenkinsApplication {
 	static Logger log = LoggerFactory.getLogger(SpringBootJenkinsApplication.class);
 	
 	@PostConstruct
-	void init()
+//	void init()
 	{
 		log.debug("Init post-Construct statement!");
 	}
